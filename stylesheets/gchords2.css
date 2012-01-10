@@ -1,0 +1,156 @@
+body.fretboard {
+    background: url(../images/back.png) 0 85px #000;
+    background-repeat: repeat-y;
+    background-position: middle;
+    text-align: center;
+}
+
+.palm-menu-icon.chord-play { background-image: url(../images/menu-icon-music-play.png); }
+
+#chordfilter {
+    float:right;
+    margin: 8px -12px 0px 0px;
+    background: url(../images/details-open-arrow.png) center center no-repeat;    
+}
+
+#formulabar {
+    width: 320px;
+    height: 30px;
+    background: #000;
+    border-bottom: 5px #fff solid;
+    position: relative;
+}
+
+#formulabar div {
+    position: absolute;
+    top: 0;
+    width: 35px;
+    color: #fff;
+    line-height: 30px;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: bold;
+}
+
+#chordchart {
+    position: relative;
+    width: 320px;
+}
+
+#bar {
+    position: absolute;
+    right: 15px;
+    height: 35px;
+    color: #3b2a11;
+    font-weight: bold;
+    text-align: center;
+    line-height: 35px;
+    vertical-align: middle;
+}
+
+.bar_full {
+    width: 285px;
+    background: url(../images/bar_full.png);
+}
+
+.bar_5 {
+    width: 235px;
+    background: url(../images/bar_5.png);
+}
+
+.fingerdot {
+    background: url(../images/fingerdot.png);
+    width: 35px;
+    height: 35px;
+    color: #3b2a11;
+    font-weight: bold;
+    text-align: center;
+    line-height: 35px;
+    vertical-align: middle;
+    position: absolute;
+}
+
+/* Positions for fingerdots */
+
+#s6,#form-s6,#b6 { left: 21px;  }
+#s5,#form-s5,#b5 { left: 71px;  }
+#s4,#form-s4,#b4 { left: 120px; }
+#s3,#form-s3,#b3 { left: 169px; }
+#s2,#form-s2,#b2 { left: 219px; }
+#s1,#form-s1,#b1 { left: 268px; }
+
+.f1  { top: 18px;  }
+.f2  { top: 93px;  }
+.f3  { top: 168px; }
+.f4  { top: 243px; }
+.f5  { top: 318px; }
+.f6  { top: 393px; }
+.f7  { top: 468px; }
+.f8  { top: 543px; }
+.f9  { top: 618px; }
+.f10 { top: 693px; }
+.f11 { top: 768px; }
+.f12 { top: 843px; }
+
+/* Support */
+.scrollfade-bottom {
+    position: fixed;
+    bottom: 0;
+    z-index: 10000;
+    height: 54px;
+    width: 100%;
+    background: url(../images/scrollfade-bottom.png) bottom center repeat-x;
+}
+
+.img_icon {
+	position:absolute;
+	left:10px;
+	top:5px;
+	width:32px; 
+	height:32px;
+	background: url(../icon32x32.png) no-repeat center ;
+	padding: 10px 0px 0px 5px;
+	float:left;	
+}
+.list_scene {
+	position:relative;
+	left:8px;
+	top:10px;
+	width:32px; 
+	height:32px;
+	vertical-align:bottom;
+	padding: 0px 0px 0px 5px;
+	float:left;
+	background: url(../icon32x32.png) no-repeat center ;
+}
+.img_email {
+	position:relative;
+	left:8px;
+	top:10px;
+	width:32px; 
+	height:32px;
+	background: url(../images/application-email.png) no-repeat bottom;
+	vertical-align:bottom;
+	padding: 0px 0px 0px 5px;
+	float:left;
+}
+.img_phone {
+	position:relative;
+	left:8px;
+	top:10px;
+	width:32px; 
+	height:32px;
+	background: url(../images/application-phone.png) no-repeat  bottom;
+	padding: 0px 0px 0px 5px;
+	float:left;
+}
+.img_web {
+	position:relative;
+	left:8px;
+	top:10px;
+	width:32px; 
+	height:32px;
+	background: url(../images/application-web.png) no-repeat  bottom;
+	padding: 0px 0px 0px 5px;
+	float:left;
+}

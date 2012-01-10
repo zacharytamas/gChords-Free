@@ -1,0 +1,21 @@
+[
+    {"source": "app\/assistants\/stage-assistant.js"},
+    { "source": "\/usr\/palm\/frameworks\/media\/media.js" },
+    {"source": "javascript\/support_info.js"},
+    {
+        "scenes": "ChordLibrary",
+        "source": "app\/assistants\/ChordLibrary-assistant.js"
+    },
+    {
+        "scenes": "Fretboard",
+        "source": "app\/assistants\/Fretboard-assistant.js"
+    },
+    {
+        "scenes": "Support",
+        "source": "app\/assistants\/Support-assistant.js"
+    },
+    {
+        "scenes": "howtoread",
+        "source": "app\/assistants\/howtoread-assistant.js"
+    }
+]

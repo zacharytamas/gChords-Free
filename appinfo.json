@@ -1,0 +1,9 @@
+{
+	"id": "com.zacharytamas.apps.gchordsfree",
+	"version": "0.9.5",
+	"vendor": "Zachary Jones",
+	"type": "web",
+	"main": "index.html",
+	"title": "gChords Free",
+	"icon": "icon.png"
+}
